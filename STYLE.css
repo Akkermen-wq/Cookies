@@ -1,0 +1,59 @@
+body{
+    background: #dbd1c8;
+    font: 1em candara;
+}
+h4{ color: #462f1b;}
+h2{ color: #462f1b;}
+.avatar{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #9a7a5c;
+}
+
+.Card-Paragraph{
+    background: #c7a484;
+    border: 2px solid #462f1b;
+    border-radius: 10px;
+border-width: 3px;
+padding: 20px 20px;
+margin-bottom: 10px;
+}
+img {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-group label {
+display: block;
+}
+
+.form-group input,
+.form-group textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+color: #000;
+padding: 15px 0 10px;
+font-family: inherit;
+}
+
+.form-row{
+margin-bottom: 10px;
+}
+.form-row .form-group{
+    display: inline-block;
+    margin-right: 20px;
+    width: 45%;
+}
+
+@media (max-width: 650px) {
+.info{
+    display: block;
+    text-align: center;
+}
+}
